@@ -19,11 +19,11 @@ GPGPU; Physic Simulation; Category Theory; Game Programming
 
 
 ## Work Experience
-- 2012-2013: System-Development, Briends GmbH
-- 2009-2011: Junior Developer Front-End & Back-End (Java), Bigpoint GmbH
-- 2006-2009: IT-Administration, forma nova GmbH
-- 1999: Internship Programming, Kiwilogic AG
-- 1998: Internship 3D Modeling, Kiwi GmbH
+- 2012-2013: System-Development, *Briends GmbH*
+- 2009-2011: Junior Developer Front-End & Back-End (Java), *Bigpoint GmbH*
+- 2006-2009: IT-Administration, *forma nova GmbH*
+- 1999: Internship Programming, *Kiwilogic AG*
+- 1998: Internship 3D Modeling, *Kiwi GmbH*
 
 
 ## Projects
@@ -48,30 +48,30 @@ GPGPU; Physic Simulation; Category Theory; Game Programming
 ## Skills
 
 ### Computer Science & IT
-- Functional Programming: good
-- Reactive Programming: medium
-- Object Oriented Programming: strong
-- Test-Driven Development: good
-- Concurrent and Parallel Programming: good
-- UNIX: good
+- Functional Programming: *good*
+- Reactive Programming: *medium*
+- Object Oriented Programming: *strong*
+- Test-Driven Development: *good*
+- Concurrent and Parallel Programming: *good*
+- UNIX: *good*
 
 
 ### IDEs & Editors
-- Eclipse: strong
-- Visual Studio: medium
-- Sublime Text: good
-- vim: medium
+- Eclipse: *strong*
+- Visual Studio: *medium*
+- Sublime Text: *good*
+- vim: *medium*
 
 ### Version Control Systems
-- git: good
-- svn: good
-- cvs: medium
+- git: *good*
+- svn: *good*
+- cvs: *medium*
 
 ### Digital Content Creation
-- Photoshop: good
-- Houdini: medium
-- zBrush: medium
-- 3D Studio Max: medium
+- Photoshop: *good*
+- Houdini: *medium*
+- zBrush: *medium*
+- 3D Studio Max: *medium*
 
 
 ### Operating Systems
@@ -89,8 +89,8 @@ GPGPU; Physic Simulation; Category Theory; Game Programming
 ### Languages
 - English
 	
-	passive: good  
-	active: medium
+	passive: *good*  
+	active: *medium*
 
 - German
 	
