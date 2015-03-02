@@ -107,5 +107,5 @@ Drawing; Family; Gaming; Cooking; 3D Modeling; TV Series; Walking; Technologies
 ## References
 - [Functional Reactive Programming (german)](http://stud.fh-wedel.de/~inf9912/research/20131207-info-seminar-frp-netwire/)
 - [Github Profile](https://github.com/MaxDaten)
-- [Curriculum Vitae (pdf)](2013-04-01-curriculum-vitae.pdf)
+- [Curriculum Vitae (pdf)](2015-03-02-curriculum-vitae.pdf)
 - [Xing Profile](https://www.xing.com/profile/JanPhilip_Loos/cv)
