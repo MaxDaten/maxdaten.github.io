@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/maxdaten
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://maxdaten.io
+  * I am maxdaten (https://keybase.io/maxdaten) on keybase.
+  * I have a public key with fingerprint 953F A09E E1E8 8307 CE64  20F8 AFF0 80C0 8A2C 118E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "953fa09ee1e88307ce6420f8aff080c08a2c118e",
+            "host": "keybase.io",
+            "key_id": "aff080c08a2c118e",
+            "kid": "0101be28d7c5c85905f87b413be0b80dad47bed82cdf14aa808fb57377054a3e9de70a",
+            "uid": "fb9b2b4db322b0f8dca80290202df819",
+            "username": "maxdaten"
+        },
+        "service": {
+            "hostname": "maxdaten.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428088377,
+    "expire_in": 157680000,
+    "prev": "d55b1aaf22d72a5c7bebcf009229a729c7ca0eb77cc362ae514fd51ce8bb7588",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMMzAnicbVJtUFRVGN7lYykwwRgCmsns+jWji5x7dy/33jVHaDByQKkUdkUEzzn3
+XLgBe5dlIT7EnIhGmJViS4zB0j6wAAFHwAS0RNBUZrYUYsYGR2enRKU0hrQZQKZ7
+qf40nT9nzvM+z3Pe55136Cl/XbC+8/d952qNS+r0wwMbi3VpS28LFRRSxDLKUkHl
+kYVLku05xOlwynYXZaEE1iRBIBBCE543AQ6TODMDJB5KEuABBjxkME3zhDJSuUqR
+plBtECwi62RFxdRHtiyq6P/w8xYKgAY0IgwvcpjFPCsAVuI5ZKZNiADEAxGKZg4R
+kWewKNFmCHnAS4jlTBwHWDM0EUEkHICqXfGCnYQExCCziEwMg9Q+RawqGAEwgBEl
+nhY0YhFx2mEBUdkFsFSELmKnKo2UipbImGgj0JL8h/F3HIdTcSlYyVcLuS6Xw6Lp
+XGUOjfgmQdn/WGQj2S6qU1QFJcRZJCt2ykKrTOySNU/azKgheDWBkSKlDtlJsmWN
+wXJxPFCP9g0pUS1FlkU0hBLDiBwDWazOAWEJAIFhBMgxAuYwBARxHMamOAYSljZL
+IktjwiPEsTxPaaEK7QplMattwhzVskjOsUNXsZNQlecHMgN0+mCdIdBP2wNd8JNh
+/27HJ/tD59eODjmsYY+xLQmN78k8uvnVK3PL8vYqJ+Yze9r7vMxQxH12IKh4eE35
+otqRlO0PR5u6mspGykcWnbFtSt4SPpzrSbgzd+ylM16/L+/9iMKjXmwOzTodbe1I
+Da384ubgre66G/JznY2hbm9hgPePVa7LhtmdH87G+173fH7toiVyrPyV+V5rzt24
+q5vKwPqL3R03QUxPXWpURv6jiXO3et+J3rFeuWvQf/f2ycGIa55YQIVsrOlr2zXx
+5+7pl1NweP++txb/fDmiuSLDunquYqm82yc2DW31pX0UY1ucdiJt2pBoOXW89bPR
+JfENke9Fd91LScL347810R9HdAwbU6qmBqpDDk59CttzbVZLz9rIyW0F+eXv7rTO
+PSipCYv94cpj99fjq06yxtEVje+jQn3h1dT0hAzP073LAz/Iu7MHT6y+1HDgq1r9
+9N6smKjDm/sakiZ927LScMEgHa4bv26bvFC97nnn8kfB8z5fQ9CM4fvSN9z66vEj
+ck7nmMeWfPangICkkvSWJ1IDN3T5PXPgBbcnqX985rdjv+yPTGzcnnjoRmrIhsry
+61vbViY0ZT6o+XWSKk4O9456yXzLypCx/sng+iP+SvrxqvqjjY7CZw/7/Gbdtbe7
+7VMta3Yd4na0tmfG1lfNuCJ1/VteO2sIOu98mH8pqINqPu3fVk9a/S+c+iZv2WBX
+5V9BVahJ
+=fSVm
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/maxdaten
+
+==================================================================
