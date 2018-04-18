@@ -1,9 +1,14 @@
 {
     "cSpell.words": [
         "abitur",
+        "aeson",
         "bigpoint",
         "datastore",
+        "doctest",
+        "fastlane",
         "gpgpu",
+        "hakyll",
+        "hspec",
         "jloos",
         "kiwilogic",
         "kubernetes",
@@ -11,12 +16,14 @@
         "mygnia",
         "netwire",
         "oktaviostraße",
+        "pagebreak",
         "photoshop",
         "poisonville",
         "res",
         "tful",
         "wedel",
         "xing",
-        "xwiki"
+        "xwiki",
+        "yesod"
     ]
 }
