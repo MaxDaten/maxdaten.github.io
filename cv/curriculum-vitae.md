@@ -1,6 +1,8 @@
-# Jan-Philip Loos
+% Curriculum Vitae
+% Jan-Philip Loos
+% 2018-04-18
 
-Oktaviostraße 112 E, 22043 Hamburg, Germany
+Oktaviostraße 112 E, 22043 Hamburg, Germany\
 +49 160 966 511 88 • <jloos@maxdaten.io>
 
 ## Education
@@ -29,39 +31,112 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 
 ## Projects
 
-- 2015 – now : Full Stack Developer
+### 2015 – now: Full Stack Developer
 
-    *Reading printed books mobile*
-    [Papego (german)](http://papego.de)
-    Briends GmbH
+  *Reading printed books mobile*\
+  [Papego (german)](http://papego.de)\
+  Briends GmbH
 
-- 2012 – 2013 : IT-Administrator, System-Developer & Co-Founder
+  *Technologies:*
 
-    *Social Writing Web-Portal based on XWiki*
-    Mygnia – [Post-Mortem (german)](http://karl-olsberg.jimdo.com/mygnia/)
-    Briends GmbH
+      - Haskell
+        - Doctest
+        - Persistent
+        - Servant / WAI / Warp
+        - Yesod
+        - Hakyll
+        - Lenses
+        - Aeson
+        - stack
+        - Strong Basics in Category Theory
+      - Kubernetes
+      - Docker
+      - Google Cloud
+        - Datastore
+        - Cloud Function
+        - Container Builder
+        - Kubernetes Engine
+      - Google Data Studio
+      - TypeScript & JavaScript
+      - Node & Yarn
+      - Webpack
+      - Angular
+      - Ionic
+      - Fastlane
+      - ElasticSearch
+      - RESTful API Design
+      - Swagger / OpenAPI
 
-- 2010 – 2011 : Java-Developer
+### 2012 – 2013: IT-Administrator, System-Developer & Co-Founder
 
-    *Tooling & Automation and Back-End-Development*
-    [Pirate Storm]((http://www.piratestorm.de/?locale=en_GB))
-    Bigpoint GmbH
+  *Social Writing Web-Portal based on XWiki*\
+  Mygnia – [Post-Mortem (german)](http://karl-olsberg.jimdo.com/mygnia/)\
+  Briends GmbH
 
-- 2009 – 2010 : Java-Developer
+  *Technologies:*
 
-    *Sound-Programming & Tooling*
-    Poisonville (unreleased)
-    Bigpoint GmbH
+      - Bare Metal (Self Hosted Service)
+      - XWIKI
+      - Java
+      - Groovy
+      - Python
+
+### 2010 – 2011: Java-Developer
+
+  *Tooling & Automation and Back-End-Development*\
+  [Pirate Storm]((http://www.piratestorm.de/?locale=en_GB))\
+  Bigpoint GmbH
+
+  *Technologies:*
+
+      - Java + JUnit
+      - ActionScript
+      - MySQL
+      - Swing
+      - Jenkins
+
+### 2010: Back & Front-End Development in Unity
+
+  *Implementation of an Real-Time Back-End Service*\
+  Evaluation Project\
+  Bigpoint GmbH
+
+  *Technologies:*
+
+      - Unity
+      - .Net / Mono
+      - C#
+      - F#
+      - Python
+
+### 2009 – 2010: Java-Developer
+
+  *Sound-Programming, Graphics-Programming & Tooling*\
+  Poisonville (unreleased)\
+  Bigpoint GmbH
+
+  *Technologies:*
+
+      - Java + JUnit
+      - Hibernate
+      - OpenGL
+      - OpenAL
+      - AWT & Swing
+      - JMonkeyEngine
+      - Max Script (3D Studio Max)
+      - Python
+      - Jenkins
 
 ## Skills
 
 ### Computer Science & IT
 
 - Functional Programming: *strong*
-- Reactive Programming: *medium*
+- Reactive Programming: *good*
 - Object Oriented Programming: *strong*
 - Test-Driven Development: *good*
 - Concurrent and Parallel Programming: *good*
+- Clean Code: *good*
 - UNIX: *good*
 - Kubernetes: *good*
 
@@ -69,6 +144,7 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 
 - Eclipse: *strong*
 - Visual Studio: *medium*
+- Visual Studio Code: *good*
 - Sublime Text: *good*
 - vim: *medium*
 
@@ -89,20 +165,21 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 
 - Debian, Ubuntu
 - Mac OS X
-- Windows 8, 7/Vista, XP
+- Windows 10, 8, 7/Vista, XP
 
 ### Additional
 
 - HTML/CSS/JS
 - LaTeX
 - Markdown
+- JSON & YAML
 - IRC
 
 ### Languages
 
 - English
 
-    passive: *good*
+    passive: *good*\
     active: *medium*
 
 - German
@@ -117,7 +194,7 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 
 ## Interests
 
-Drawing, Family, Gaming; Cooking, 3D Modeling, TV Series; Walking; Technologies
+Drawing, Family, Gaming; Cooking & Cocktails, 3D Modeling, TV Series, Walking, Running, Technologies
 
 ## References
 
