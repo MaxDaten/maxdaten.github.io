@@ -31,7 +31,7 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 
 ## Awards
 
-- 2018: German Design Award (Excellent Communications Design - App: Winner)
+- 2018: German Design Award (Winner: Excellent Communications Design -- Apps)
 - 2016: Isarnetz Award für Medieninnovation
 - 2016: CONTENTshift Award (Börsenverein des Deutschen Buchhandels)
 - 2016: Best of „Neuland 2.0“ at Leipziger Buchmesse
