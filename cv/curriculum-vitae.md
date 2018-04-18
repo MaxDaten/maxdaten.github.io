@@ -201,7 +201,7 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 
 ## Interests
 
-Drawing, Family, Gaming; Cooking & Cocktails, 3D Modeling, TV Series, Walking, Running, Technologies
+Drawing, Family, Gaming, Cooking & Cocktails, 3D Modeling, TV Series, Walking, Running, Technologies
 
 ## References
 
