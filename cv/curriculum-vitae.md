@@ -29,6 +29,8 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 - 1999: Internship Programming, *Kiwilogic AG*
 - 1998: Internship 3D Modeling, *Kiwi GmbH*
 
+\pagebreak
+
 ## Projects
 
 ### 2015 – now: Full Stack Developer
@@ -40,10 +42,10 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
   *Technologies:*
 
       - Haskell
-        - Doctest
         - Persistent
         - Servant / WAI / Warp
         - Yesod
+        - doctest & QuickCheck & hspec
         - Hakyll
         - Lenses
         - Aeson
