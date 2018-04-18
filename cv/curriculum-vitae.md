@@ -29,7 +29,12 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 - 1999: Internship Programming, *Kiwilogic AG*
 - 1998: Internship 3D Modeling, *Kiwi GmbH*
 
-\pagebreak
+## Awards
+
+- 2018: German Design Award (Excellent Communications Design - App: Winner)
+- 2016: Isarnetz Award für Medieninnovation
+- 2016: CONTENTshift Award (Börsenverein des Deutschen Buchhandels)
+- 2016: Best of „Neuland 2.0“ at Leipziger Buchmesse
 
 ## Projects
 
