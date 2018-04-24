@@ -31,10 +31,10 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 
 ## Awards
 
-- 2018: German Design Award (Winner: Excellent Communications Design -- Apps)
-- 2016: Isarnetz Award für Medieninnovation
-- 2016: CONTENTshift Award (Börsenverein des Deutschen Buchhandels)
-- 2016: Best of „Neuland 2.0“ at Leipziger Buchmesse
+- 2018: [German Design Award (Winner: Excellent Communications Design -- Apps)](https://www.german-design-award.com/die-gewinner/galerie/detail/14562-papego.html)
+- 2016: [Isarnetz Award für Medieninnovation](https://www.briends.net/2016/11/04/papego-mit-isarnetz-award-f%C3%BCr-medieninnovation-ausgezeichnet/)
+- 2016: [CONTENTshift Award (Börsenverein des Deutschen Buchhandels)](https://www.contentshift.de/2016/gewinner/)
+- 2016: [Best of „Neuland 2.0“ at Leipziger Buchmesse](http://www.leipziger-buchmesse.de/pressemitteilungen/neuland-20-zeigt-14-ausgewaehlte-startupinnovationen/393971)
 
 ## Projects
 
