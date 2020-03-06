@@ -3,15 +3,28 @@ build:
 	nix-shell --pure --run 'make pages'
 
 pages:
-	mkdir -p cv
-	pandoc -H ./src/cv/tex/base.tex -o ./cv/curriculum-vitae.pdf ./src/cv/curriculum-vitae.md
-	pandoc -s -t html5 -H ./src/cv/css/cv.css -o ./cv/curriculum-vitae.html ./src/cv/curriculum-vitae.md
-	pandoc -s -t docx -o ./cv/curriculum-vitae.docx ./src/cv/curriculum-vitae.md
-	ln -sf ./cv/curriculum-vitae.html index.html
+	mkdir -p build/cv
+
+	pandoc \
+		--output ./build/cv/curriculum-vitae.pdf \
+		--include-in-header ./src/cv/tex/base.tex \
+		./src/cv/curriculum-vitae.md
+	pandoc \
+		--standalone \
+		--write html5 \
+		--output ./build/cv/curriculum-vitae.html \
+		--include-in-header ./src/cv/css/cv.css \
+		./src/cv/curriculum-vitae.md
+	pandoc \
+		--standalone \
+		--write docx \
+		--output ./build/cv/curriculum-vitae.docx \
+		./src/cv/curriculum-vitae.md
+
+	ln -sf ./build/cv/curriculum-vitae.html build/index.html
 
 clean:
-	rm -rf cv
-	rm index.html
+	rm -rf build
 
 watch:
 	nix-shell --pure --run 'watchexec -e md make pages'
