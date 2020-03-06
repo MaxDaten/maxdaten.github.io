@@ -21,7 +21,7 @@ pages:
 		--output ./build/cv/curriculum-vitae.docx \
 		./src/cv/curriculum-vitae.md
 
-	ln -sf ./build/cv/curriculum-vitae.html build/index.html
+	ln -f ./build/cv/curriculum-vitae.html build/index.html
 
 clean:
 	rm -rf build
