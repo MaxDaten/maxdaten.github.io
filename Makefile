@@ -1,4 +1,4 @@
-.PHONY: build update-nixpkgs
+.PHONY: build update-nixpkgs clean watch
 build:
 	nix-shell --pure --run 'make pages'
 
