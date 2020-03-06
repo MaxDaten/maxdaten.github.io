@@ -1,4 +1,4 @@
-# cv.maxdaten.io
+# <https://cv.maxdaten.io>
 
 ![CI](https://github.com/MaxDaten/cv.maxdaten.io/workflows/CI/badge.svg)
 

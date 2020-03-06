@@ -23,6 +23,9 @@ pages:
 
 	ln -f ./build/cv/curriculum-vitae.html build/index.html
 
+	cp -r .well-known build
+	cp CNAME build
+
 clean:
 	rm -rf build
 
