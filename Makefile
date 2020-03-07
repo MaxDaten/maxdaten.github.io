@@ -1,6 +1,7 @@
 .PHONY: build update-nixpkgs clean watch
+
 build:
-	nix-shell --pure --run 'make pages'
+	make pages
 
 pages:
 	mkdir -p build/cv
@@ -30,6 +31,9 @@ pages:
 
 clean:
 	rm -rf build
+
+install:
+	echo "done"
 
 watch:
 	nix-shell --pure --run 'watchexec --ignore build make pages'

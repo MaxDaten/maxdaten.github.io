@@ -11,6 +11,7 @@ in {
 
   pages = pkgs.stdenv.mkDerivation {
     name = "cv.maxdaten.io";
+    src = ./.;
     phases = [];
     buildInputs = [
       texlive
