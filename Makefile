@@ -7,13 +7,15 @@ pages:
 
 	pandoc \
 		--output ./build/cv/curriculum-vitae.pdf \
-		--include-in-header ./src/cv/tex/base.tex \
+		--include-in-header ./src/templates/base.tex \
 		./src/cv/curriculum-vitae.md
 	pandoc \
-		--standalone \
+		--self-contained \
 		--write html5 \
 		--output ./build/cv/curriculum-vitae.html \
-		--include-in-header ./src/cv/css/cv.css \
+		--css ./src/templates/template.css \
+		--template ./src/templates/template.html \
+		--verbose \
 		./src/cv/curriculum-vitae.md
 	pandoc \
 		--standalone \
@@ -30,4 +32,4 @@ clean:
 	rm -rf build
 
 watch:
-	nix-shell --pure --run 'watchexec -e md make pages'
+	nix-shell --pure --run 'watchexec --ignore build make pages'
