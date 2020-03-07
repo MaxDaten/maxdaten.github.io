@@ -45,25 +45,25 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 
 Technical Lead Developer for an iOS enterprise app for opticians to measure optometric values of customers.
 
-  *Technologies:*
+*Technologies:*
 
-    - .Net
-    - Xamarin
-    - Jenkins
-    - AWS
+- .Net
+- Xamarin
+- Jenkins
+- AWS
 
 #### Fielmann AG - Product Catalogue
 
 Developing front-end, backend & infrastructure and continuous deployment for an AWS backed
 product catalog.
 
-  *Technologies:*
+*Technologies:*
 
-    - Kotlin
-    - React
-    - Kubernetes
-    - Docker
-    - AWS
+- Kotlin
+- React
+- Kubernetes
+- Docker
+- AWS
 
 ### 2015 – now: Full Stack Developer
 
@@ -71,95 +71,95 @@ product catalog.
   [Papego (german)](http://papego.de)\
   Briends GmbH
 
-  *Technologies:*
+*Technologies:*
 
-    - Haskell
-      - Persistent
-      - Servant / WAI / Warp
-      - Yesod
-      - doctest & QuickCheck & hspec
-      - Hakyll
-      - Lenses
-      - Aeson
-      - stack
-      - Strong Basics in Category Theory
-    - Kubernetes
-    - Docker
-    - Google Cloud
-      - Datastore
-      - Cloud Function
-      - Container Builder
-      - Kubernetes Engine
-    - Google Data Studio
-    - TypeScript & JavaScript
-    - Node & Yarn
-    - Webpack
-    - Angular
-    - Ionic
-    - Fastlane
-    - ElasticSearch
-    - RESTful API Design
-    - Swagger / OpenAPI
+- Haskell
+  - Persistent
+  - Servant / WAI / Warp
+  - Yesod
+  - doctest & QuickCheck & hspec
+  - Hakyll
+  - Lenses
+  - Aeson
+  - stack
+  - Strong Basics in Category Theory
+- Kubernetes
+- Docker
+- Google Cloud
+  - Datastore
+  - Cloud Function
+  - Container Builder
+  - Kubernetes Engine
+- Google Data Studio
+- TypeScript & JavaScript
+- Node & Yarn
+- Webpack
+- Angular
+- Ionic
+- Fastlane
+- ElasticSearch
+- RESTful API Design
+- Swagger / OpenAPI
 
 ### 2012 – 2013: IT-Administrator, System-Developer & Co-Founder
 
-  *Social Writing Web-Portal based on XWiki*\
-  Mygnia – [Post-Mortem (german)](http://karl-olsberg.jimdo.com/mygnia/)\
-  Briends GmbH
+*Social Writing Web-Portal based on XWiki*\
+Mygnia – [Post-Mortem (german)](http://karl-olsberg.jimdo.com/mygnia/)\
+Briends GmbH
 
-  *Technologies:*
+*Technologies:*
 
-      - Bare Metal (Self Hosted Service)
-      - XWIKI
-      - Java
-      - Groovy
-      - Python
+- Bare Metal (Self Hosted Service)
+- XWIKI
+- Java
+- Groovy
+- Python
 
 ### 2010 – 2011: Java-Developer
 
-  *Tooling & Automation and Back-End-Development*\
-  [Pirate Storm]((http://www.piratestorm.de/?locale=en_GB))\
-  Bigpoint GmbH
+*Tooling & Automation and Back-End-Development*\
+[Pirate Storm]((http://www.piratestorm.de/?locale=en_GB))\
+Bigpoint GmbH
 
-  *Technologies:*
+*Technologies:*
 
-      - Java + JUnit
-      - ActionScript
-      - MySQL
-      - Swing
-      - Jenkins
+- Java + JUnit
+- ActionScript
+- MySQL
+- Swing
+- Jenkins
 
 ### 2010: Back & Front-End Development in Unity
 
-  *Implementation of an Real-Time Back-End Service*\
-  Evaluation Project\
-  Bigpoint GmbH
+*Implementation of an Real-Time Back-End Service*\
+Evaluation Project\
+Bigpoint GmbH
 
-  *Technologies:*
+*Technologies:*
 
-      - Unity
-      - .Net / Mono
-      - C#
-      - F#
-      - Python
+- Unity
+- .Net / Mono
+- C#
+- F#
+- Python
 
 ### 2009 – 2010: Java-Developer
 
-  *Sound-Programming, Graphics-Programming & Tooling*\
-  Poisonville (unreleased)\
-  Bigpoint GmbH
+*Sound-Programming, Graphics-Programming & Tooling*\
+Poisonville (unreleased)\
+Bigpoint GmbH
 
-  *Technologies:*
+*Technologies:*
 
-      - Java + JUnit
-      - Hibernate
-      - OpenGL
-      - OpenAL
-      - AWT & Swing
-      - JMonkeyEngine
-      - Max Script (3D Studio Max)
-      - Python
-      - Jenkins
+- Java + JUnit
+- Hibernate
+- OpenGL
+- OpenAL
+- AWT & Swing
+- JMonkeyEngine
+- Max Script (3D Studio Max)
+- Python
+- Jenkins
 
 ## Skills
 
@@ -178,13 +178,16 @@ product catalog.
 
 - Eclipse: *strong*
 - Visual Studio: *medium*
+- Visual Studio for Mac: *medium*
+- Rider: *good*
+- IntelliJ: *good*
 - Visual Studio Code: *good*
 - Sublime Text: *good*
 - vim: *medium*
 
 ### Version Control Systems
 
-- git: *good*
+- git: *strong*
 - svn: *good*
 - cvs: *medium*
 
@@ -213,12 +216,12 @@ product catalog.
 
 - English
 
-    passive: *good*\
-    active: *medium*
+  passive: *strong*\
+  active: *good*
 
 - German
 
-    native
+  native
 
 ## Qualifications
 
