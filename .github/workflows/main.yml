@@ -18,7 +18,6 @@ jobs:
         name: cv-maxdaten-io
         signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
-    - run: make build
     - name: Upload pages
       uses: actions/upload-artifact@v1.0.0
       with:
