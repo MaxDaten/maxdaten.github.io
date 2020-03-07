@@ -1,14 +1,13 @@
-<style>
-  body {
+body {
     font-family: "Source Sans Pro", "Lucida Grande", Calibri, Helvetica, sans-serif;
     max-width: 750px;
     margin: auto;
-  }
-  h1 {
+}
+h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
-  }
-  li {
+}
+li {
     margin-bottom: .3em;
-  }
-</style>
+    font-family: monospace;
+}
