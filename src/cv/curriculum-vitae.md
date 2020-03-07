@@ -1,6 +1,6 @@
 % Curriculum Vitae
 % Jan-Philip Loos
-% 2018-04-18
+% 2020-03-08
 
 Oktaviostraße 112 E, 22043 Hamburg, Germany\
 +49 160 966 511 88 • <jloos@maxdaten.io>
@@ -37,6 +37,32 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 - 2016: [Best of „Neuland 2.0“ at Leipziger Buchmesse](http://www.leipziger-buchmesse.de/pressemitteilungen/neuland-20-zeigt-14-ausgewaehlte-startupinnovationen/393971)
 
 ## Projects
+
+### 2018 – now: Full Stack Developer
+
+#### Fielmann AG - Tablet Based Centration
+
+Developing an iOS app for optician to measure optometric values.
+
+##### Technologies
+
+- .Net
+- Xamarin
+- Jenkins
+- AWS
+
+#### Fielmann AG - Product Catalogue
+
+Developing front-end, backend & infrastructure and continues deployment for an AWS backed
+product catalog.
+
+##### Technologies
+
+- Kotlin
+- React
+- Kubernetes
+- Docker
+- AWS
 
 ### 2015 – now: Full Stack Developer
 
