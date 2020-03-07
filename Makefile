@@ -21,7 +21,7 @@ pages:
 		--output ./build/cv/curriculum-vitae.docx \
 		./src/cv/curriculum-vitae.md
 
-	ln -f ./build/cv/curriculum-vitae.html build/index.html
+	cp -f ./build/cv/curriculum-vitae.html build/index.html
 
 	cp -r .well-known build
 	cp CNAME build
