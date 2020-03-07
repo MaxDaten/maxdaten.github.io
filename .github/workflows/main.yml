@@ -13,6 +13,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v7
+    - uses: actions/cache@v1
+      with:
+        path: /nix/store
+        key: ${{ runner.os }}-nix-store
     - uses: cachix/cachix-action@v5
       with:
         name: cv-maxdaten-io
