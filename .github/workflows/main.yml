@@ -30,10 +30,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: git worktree add -B gh-pages build
-
     - name: Download artifact
       uses: actions/download-artifact@v1.0.0
       with:
         name: pages
         path: build
+    - name: GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v1.3.0
+      with:
+        build_dir: build
