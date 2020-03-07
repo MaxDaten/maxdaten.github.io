@@ -23,6 +23,7 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 
 ## Work Experience
 
+- 2018 – now: Full Stack Development, External, *Fielmann AG*
 - 2012 – now: Full Stack Development, *Briends GmbH*
 - 2009 – 2011: Junior Developer Front-End & Back-End (Java), *Bigpoint GmbH*
 - 2006 – 2009: IT-Administration, *forma nova GmbH*
@@ -42,27 +43,27 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Phys
 
 #### Fielmann AG - Tablet Based Centration
 
-Developing an iOS app for optician to measure optometric values.
+Technical Lead Developer for an iOS enterprise app for opticians to measure optometric values of customers.
 
-##### Technologies
+  *Technologies:*
 
-- .Net
-- Xamarin
-- Jenkins
-- AWS
+    - .Net
+    - Xamarin
+    - Jenkins
+    - AWS
 
 #### Fielmann AG - Product Catalogue
 
-Developing front-end, backend & infrastructure and continues deployment for an AWS backed
+Developing front-end, backend & infrastructure and continuous deployment for an AWS backed
 product catalog.
 
-##### Technologies
+  *Technologies:*
 
-- Kotlin
-- React
-- Kubernetes
-- Docker
-- AWS
+    - Kotlin
+    - React
+    - Kubernetes
+    - Docker
+    - AWS
 
 ### 2015 – now: Full Stack Developer
 
@@ -72,33 +73,33 @@ product catalog.
 
   *Technologies:*
 
-      - Haskell
-        - Persistent
-        - Servant / WAI / Warp
-        - Yesod
-        - doctest & QuickCheck & hspec
-        - Hakyll
-        - Lenses
-        - Aeson
-        - stack
-        - Strong Basics in Category Theory
-      - Kubernetes
-      - Docker
-      - Google Cloud
-        - Datastore
-        - Cloud Function
-        - Container Builder
-        - Kubernetes Engine
-      - Google Data Studio
-      - TypeScript & JavaScript
-      - Node & Yarn
-      - Webpack
-      - Angular
-      - Ionic
-      - Fastlane
-      - ElasticSearch
-      - RESTful API Design
-      - Swagger / OpenAPI
+    - Haskell
+      - Persistent
+      - Servant / WAI / Warp
+      - Yesod
+      - doctest & QuickCheck & hspec
+      - Hakyll
+      - Lenses
+      - Aeson
+      - stack
+      - Strong Basics in Category Theory
+    - Kubernetes
+    - Docker
+    - Google Cloud
+      - Datastore
+      - Cloud Function
+      - Container Builder
+      - Kubernetes Engine
+    - Google Data Studio
+    - TypeScript & JavaScript
+    - Node & Yarn
+    - Webpack
+    - Angular
+    - Ionic
+    - Fastlane
+    - ElasticSearch
+    - RESTful API Design
+    - Swagger / OpenAPI
 
 ### 2012 – 2013: IT-Administrator, System-Developer & Co-Founder
 
