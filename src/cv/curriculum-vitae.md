@@ -19,7 +19,7 @@ Oktaviostraße 112 E, 22043 Hamburg, Germany\
 
 ## Research Interests
 
-Computer Graphics, Virtual Reality, Functional Programming, Haskell, GPGPU, Physic Simulation, Category Theory, Game Programming
+Computer Graphics, Virtual Reality, Functional Programming, Haskell, Nix & NixOS, GPGPU, Physic Simulation, Category Theory, Game Programming
 
 ## Work Experience
 
