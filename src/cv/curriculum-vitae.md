@@ -252,5 +252,5 @@ Drawing, Family, Gaming, Cooking & Cocktails, 3D Modeling, TV Series, Walking, R
 - [Master Thesis – *Modern OpenGL in Haskell*](https://github.com/MaxDaten/master-thesis/releases/download/1.0/master-thesis.pdf)
 - [Functional Reactive Programming (german)](http://stud.fh-wedel.de/~inf9912/research/20131207-info-seminar-frp-netwire/)
 - [Github Profile](https://github.com/MaxDaten)
-- [Curriculum Vitae (pdf)](./curriculum-vitae.pdf)
+- [Curriculum Vitae (pdf)](./cv/curriculum-vitae.pdf)
 - [Xing Profile](https://www.xing.com/profile/JanPhilip_Loos/cv)
