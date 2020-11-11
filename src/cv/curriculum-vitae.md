@@ -23,7 +23,7 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, Nix & NixOS
 
 ## Work Experience
 
-- 02/2020 - 08/2020: Full Stack Development
+- 02/2020 - 09/2020: Full Stack Development
   *Oaktree Technologies GmbH* (subsidiary of *Fielmann AG*)
 - 2018 – 02/2020: Full Stack Development, *Fielmann AG*
 - 2012 – now: Full Stack Development, *Briends GmbH*
@@ -41,7 +41,7 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, Nix & NixOS
 
 ## Projects
 
-### 2018 – 08/2020: Full Stack Developer
+### 2018 – 09/2020: Full Stack Developer
 
 #### Oaktree Technologies GmbH
 
