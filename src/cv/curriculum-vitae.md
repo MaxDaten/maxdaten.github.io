@@ -242,6 +242,7 @@ Bigpoint GmbH
 
 ## Qualifications
 
+- [Stanford University: Machine Learning: 2020](https://coursera.org/share/26faafa34c2f531e0bcec7dd62d92db1)
 - Productivity Management: 2007
 - Creativity Techniques for Students and Leaders: 2007
 - Unit-Testing in Java (JUnit): 2010
