@@ -18,10 +18,10 @@ Polyglot Full-Stack Developer with more than 10 years of working and leading exp
 
 ## Work Experience
 
-- 02/2020 - 09/2020: Full Stack Development
+- 02/2020 - 09/2020: Full-Stack Development
   *Oaktree Technologies GmbH* (subsidiary of *Fielmann AG*)
-- 2018 – 02/2020: Full Stack Development / DevOps, *Fielmann AG*
-- 2012 – now: Full Stack Development / DevOps, *Briends GmbH*
+- 2018 – 02/2020: Full-Stack Development / DevOps, *Fielmann AG*
+- 2012 – now: Full-Stack Development / DevOps, *Briends GmbH*
 - 2009 – 2011: Junior Developer Front-End & Back-End (Java), *Bigpoint GmbH*
 - 2006 – 2009: IT-Administration, *forma nova GmbH*
 - 1999: Internship Programming, *Kiwilogic AG*
@@ -52,7 +52,7 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, Nix & NixOS
 
 ## Projects
 
-### 2018 – 09/2020: Full Stack Developer / DevOps
+### 2018 – 09/2020: Full-Stack Developer / DevOps
 
 #### Oaktree Technologies GmbH
 
@@ -90,13 +90,13 @@ product catalog.
 - Docker
 - AWS
 
-### 2015 – now: Full Stack Developer / DevOps
+### 2015 – now: Full-Stack Developer / DevOps
 
   *Reading printed books mobile*\
   [Papego (german)](http://papego.de)\
   Briends GmbH
 
-  Full stack development of iOS & Android app & backend. Automatization, integration & delivery in
+  Full-Stack development of iOS & Android app & backend. Automatization, integration & delivery in
   Google Cloud.
 
 *Technologies:*
