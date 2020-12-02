@@ -5,6 +5,16 @@
 Oktaviostraße 112 E, 22043 Hamburg, Germany\
 +49 160 966 511 88 • <jloos@maxdaten.io>
 
+# About me
+
+Polyglot Full-Stack Developer with more than 10 years of working and leading experience in various software development projects. Strong opinions about functional programming and expertise in workflow automatization, continuous integration/continuous delivery.
+
+# Expertise
+
+- Polyglot Full-Stack Developer
+- Software Architect
+- Automatization Wizard
+- Practices DevOps since 2012
 ## Education
 
 - M.Sc. : Computer Science - *University of Applied Science Wedel*, 2015
