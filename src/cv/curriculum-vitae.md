@@ -15,6 +15,18 @@ Polyglot Full-Stack Developer with more than 10 years of working and leading exp
 - Software Architect
 - Automatization Wizard
 - Practices DevOps since 2012
+
+## Work Experience
+
+- 02/2020 - 09/2020: Full Stack Development
+  *Oaktree Technologies GmbH* (subsidiary of *Fielmann AG*)
+- 2018 – 02/2020: Full Stack Development / DevOps, *Fielmann AG*
+- 2012 – now: Full Stack Development / DevOps, *Briends GmbH*
+- 2009 – 2011: Junior Developer Front-End & Back-End (Java), *Bigpoint GmbH*
+- 2006 – 2009: IT-Administration, *forma nova GmbH*
+- 1999: Internship Programming, *Kiwilogic AG*
+- 1998: Internship 3D Modeling, *Kiwi GmbH*
+
 ## Education
 
 - M.Sc. : Computer Science - *University of Applied Science Wedel*, 2015
@@ -30,17 +42,6 @@ Polyglot Full-Stack Developer with more than 10 years of working and leading exp
 ## Research Interests
 
 Computer Graphics, Virtual Reality, Functional Programming, Haskell, Nix & NixOS, GPGPU, Physic Simulation, Category Theory, Game Programming
-
-## Work Experience
-
-- 02/2020 - 09/2020: Full Stack Development
-  *Oaktree Technologies GmbH* (subsidiary of *Fielmann AG*)
-- 2018 – 02/2020: Full Stack Development / DevOps, *Fielmann AG*
-- 2012 – now: Full Stack Development / DevOps, *Briends GmbH*
-- 2009 – 2011: Junior Developer Front-End & Back-End (Java), *Bigpoint GmbH*
-- 2006 – 2009: IT-Administration, *forma nova GmbH*
-- 1999: Internship Programming, *Kiwilogic AG*
-- 1998: Internship 3D Modeling, *Kiwi GmbH*
 
 ## Awards
 
