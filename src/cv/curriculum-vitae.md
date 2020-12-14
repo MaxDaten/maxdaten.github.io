@@ -1,6 +1,6 @@
 % Curriculum Vitae
 % Jan-Philip Loos
-% 2020-03-08
+% 2020-12-14
 
 Oktaviostraße 112 E, 22043 Hamburg, Germany\
 +49 160 966 511 88 • <jloos@maxdaten.io>
