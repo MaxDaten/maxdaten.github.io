@@ -28,5 +28,6 @@
         "xing",
         "xwiki",
         "yesod"
-    ]
+    ],
+    "nixEnvSelector.nixShellConfig": "${workspaceRoot}/shell.nix"
 }
