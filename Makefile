@@ -3,32 +3,14 @@
 BUILD_DIR=build
 SRC_DIR=src
 
-build:
-	make pages
+build: pages index domain-metas
 
 $(BUILD_DIR)/cv:
 	mkdir -p $@
 
-pages: $(BUILD_DIR)/cv html $(BUILD_DIR)/index.html domain-metas
+pages: pdf docx html
 
-	pandoc \
-		--output $(BUILD_DIR)/cv/curriculum-vitae.pdf \
-		--include-in-header $(SRC_DIR)/templates/base.tex \
-		$(SRC_DIR)/cv/curriculum-vitae.md
-	pandoc \
-		--self-contained \
-		--write html5 \
-		--output $(BUILD_DIR)/cv/curriculum-vitae.html \
-		--css $(SRC_DIR)/templates/template.css \
-		--template $(SRC_DIR)/templates/template.html \
-		--verbose \
-		$(SRC_DIR)/cv/curriculum-vitae.md
-	pandoc \
-		--standalone \
-		--write docx \
-		--output $(BUILD_DIR)/cv/curriculum-vitae.docx \
-		$(SRC_DIR)/cv/curriculum-vitae.md
-
+index: $(BUILD_DIR)/index.html
 $(BUILD_DIR)/index.html: $(BUILD_DIR)/cv/curriculum-vitae.html
 	cp -f $< $@
 
@@ -41,9 +23,23 @@ css: $(SRC_DIR)/templates/template.css
 $(SRC_DIR)/templates/template.css: $(SRC_DIR)/sass/template.sass
 	sass $< $@
 
-html: build/cv/curriculum-vitae.html
+docx: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.docx
+$(BUILD_DIR)/cv/curriculum-vitae.docx: $(SRC_DIR)/cv/curriculum-vitae.md
+	pandoc \
+		--standalone \
+		--write docx \
+		--output $@ \
+		$(SRC_DIR)/cv/curriculum-vitae.md
 
-build/cv/curriculum-vitae.html: build/cv $(SRC_DIR)/cv/curriculum-vitae.md $(SRC_DIR)/templates/template.css $(SRC_DIR)/templates/template.html
+pdf: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.pdf
+$(BUILD_DIR)/cv/curriculum-vitae.pdf: $(SRC_DIR)/cv/curriculum-vitae.md $(SRC_DIR)/templates/base.tex
+	pandoc \
+		--include-in-header $(SRC_DIR)/templates/base.tex \
+		$(SRC_DIR)/cv/curriculum-vitae.md \
+		--output $@ \
+
+html: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.html
+$(BUILD_DIR)/cv/curriculum-vitae.html: build/cv $(SRC_DIR)/cv/curriculum-vitae.md $(SRC_DIR)/templates/template.css $(SRC_DIR)/templates/template.html
 	pandoc \
 		--self-contained \
 		--write html5 \
