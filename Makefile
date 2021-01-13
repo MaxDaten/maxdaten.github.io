@@ -27,24 +27,24 @@ $(BUILD_DIR)/template.css: $(SRC_DIR)/sass/template.sass
 
 
 docx: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.docx
-$(BUILD_DIR)/cv/curriculum-vitae.docx: $(SRC_DIR)/cv/curriculum-vitae.md
+$(BUILD_DIR)/cv/curriculum-vitae.docx: $(SRC_DIR)/cv/*.md
 	pandoc \
 		--standalone \
 		--write docx \
 		--output $@ \
-		$(SRC_DIR)/cv/curriculum-vitae.md
+		$(SRC_DIR)/cv/*.md
 
 
 pdf: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.pdf
-$(BUILD_DIR)/cv/curriculum-vitae.pdf: $(SRC_DIR)/cv/curriculum-vitae.md $(SRC_DIR)/templates/base.tex
+$(BUILD_DIR)/cv/curriculum-vitae.pdf: $(SRC_DIR)/cv/*.md $(SRC_DIR)/templates/base.tex
 	pandoc \
 		--include-in-header $(SRC_DIR)/templates/base.tex \
-		$(SRC_DIR)/cv/curriculum-vitae.md \
+		$(SRC_DIR)/cv/*.md \
 		--output $@ \
 
 
 html: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.html
-$(BUILD_DIR)/cv/curriculum-vitae.html: build/cv $(SRC_DIR)/cv/curriculum-vitae.md $(BUILD_DIR)/template.css $(SRC_DIR)/templates/template.html
+$(BUILD_DIR)/cv/curriculum-vitae.html: build/cv $(SRC_DIR)/cv/*.md $(BUILD_DIR)/template.css $(SRC_DIR)/templates/template.html
 	pandoc \
 		--self-contained \
 		--write html5 \
@@ -52,7 +52,7 @@ $(BUILD_DIR)/cv/curriculum-vitae.html: build/cv $(SRC_DIR)/cv/curriculum-vitae.m
 		--css $(BUILD_DIR)/template.css \
 		--template $(SRC_DIR)/templates/template.html \
 		--verbose \
-		$(SRC_DIR)/cv/curriculum-vitae.md
+		$(SRC_DIR)/cv/*.md
 
 
 .PHONY: clean
