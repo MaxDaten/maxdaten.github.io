@@ -10,9 +10,11 @@ $(BUILD_DIR)/cv:
 
 pages: pdf docx html
 
+
 index: $(BUILD_DIR)/index.html
 $(BUILD_DIR)/index.html: $(BUILD_DIR)/cv/curriculum-vitae.html
 	cp -f $< $@
+
 
 domain-metas:
 	cp -r .well-known build
@@ -23,6 +25,7 @@ css: $(SRC_DIR)/templates/template.css
 $(SRC_DIR)/templates/template.css: $(SRC_DIR)/sass/template.sass
 	sass $< $@
 
+
 docx: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.docx
 $(BUILD_DIR)/cv/curriculum-vitae.docx: $(SRC_DIR)/cv/curriculum-vitae.md
 	pandoc \
@@ -31,12 +34,14 @@ $(BUILD_DIR)/cv/curriculum-vitae.docx: $(SRC_DIR)/cv/curriculum-vitae.md
 		--output $@ \
 		$(SRC_DIR)/cv/curriculum-vitae.md
 
+
 pdf: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.pdf
 $(BUILD_DIR)/cv/curriculum-vitae.pdf: $(SRC_DIR)/cv/curriculum-vitae.md $(SRC_DIR)/templates/base.tex
 	pandoc \
 		--include-in-header $(SRC_DIR)/templates/base.tex \
 		$(SRC_DIR)/cv/curriculum-vitae.md \
 		--output $@ \
+
 
 html: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.html
 $(BUILD_DIR)/cv/curriculum-vitae.html: build/cv $(SRC_DIR)/cv/curriculum-vitae.md $(SRC_DIR)/templates/template.css $(SRC_DIR)/templates/template.html
@@ -49,12 +54,15 @@ $(BUILD_DIR)/cv/curriculum-vitae.html: build/cv $(SRC_DIR)/cv/curriculum-vitae.m
 		--verbose \
 		$(SRC_DIR)/cv/curriculum-vitae.md
 
+
 .PHONY: clean
 clean:
 	rm -rf $(BUILD_DIR)
 
+
 install:
 	echo "done"
+
 
 watch:
 	nix-shell --pure --run 'watchexec --ignore build make pages'
