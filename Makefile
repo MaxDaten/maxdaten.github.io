@@ -21,8 +21,8 @@ domain-metas:
 	cp CNAME build
 
 
-css: $(SRC_DIR)/templates/template.css
-$(SRC_DIR)/templates/template.css: $(SRC_DIR)/sass/template.sass
+css: $(BUILD_DIR)/template.css
+$(BUILD_DIR)/template.css: $(SRC_DIR)/sass/template.sass
 	sass $< $@
 
 
@@ -44,12 +44,12 @@ $(BUILD_DIR)/cv/curriculum-vitae.pdf: $(SRC_DIR)/cv/curriculum-vitae.md $(SRC_DI
 
 
 html: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.html
-$(BUILD_DIR)/cv/curriculum-vitae.html: build/cv $(SRC_DIR)/cv/curriculum-vitae.md $(SRC_DIR)/templates/template.css $(SRC_DIR)/templates/template.html
+$(BUILD_DIR)/cv/curriculum-vitae.html: build/cv $(SRC_DIR)/cv/curriculum-vitae.md $(BUILD_DIR)/template.css $(SRC_DIR)/templates/template.html
 	pandoc \
 		--self-contained \
 		--write html5 \
 		--output $(BUILD_DIR)/cv/curriculum-vitae.html \
-		--css $(SRC_DIR)/templates/template.css \
+		--css $(BUILD_DIR)/template.css \
 		--template $(SRC_DIR)/templates/template.html \
 		--verbose \
 		$(SRC_DIR)/cv/curriculum-vitae.md
