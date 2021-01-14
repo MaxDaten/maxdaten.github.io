@@ -3,12 +3,15 @@
 BUILD_DIR=build
 SRC_DIR=src
 
+
 build: pages index domain-metas
+
+
+pages: pdf docx html
+
 
 $(BUILD_DIR)/cv:
 	mkdir -p $@
-
-pages: pdf docx html
 
 
 index: $(BUILD_DIR)/index.html
