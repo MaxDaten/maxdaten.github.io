@@ -1,13 +1,13 @@
 .PHONY: build update-nixpkgs clean watch
 
-BUILD_DIR=build
-SRC_DIR=src
+BUILD_DIR = build
+SRC_DIR = src
 
 
 build: pages index domain-metas
 
 
-pages: pdf docx html
+pages: html docx pdf
 
 
 $(BUILD_DIR)/cv:
@@ -16,8 +16,9 @@ $(BUILD_DIR)/cv:
 
 index: $(BUILD_DIR)/index.html
 $(BUILD_DIR)/index.html: $(BUILD_DIR)/cv/curriculum-vitae.html
-	cp -f $< $@
-
+	$(eval link_src := $(shell realpath --relative-to "$(BUILD_DIR)" "$<"))
+	$(info Linking "$(link_src)" as "$(@F)")
+	ln -sf "$(link_src)" "$@"
 
 domain-metas:
 	cp -r .well-known build
