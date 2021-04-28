@@ -64,7 +64,7 @@ clean:
 
 
 install:
-	echo "done"
+	mv $(BUILD_DIR)/* $(out)/
 
 
 watch:
