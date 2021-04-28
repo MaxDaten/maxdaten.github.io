@@ -18,7 +18,6 @@ jobs:
     - uses: cachix/cachix-action@v10
       with:
         name: cv-maxdaten-io
-        attributes: pages
         signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
     - run: nix-build
