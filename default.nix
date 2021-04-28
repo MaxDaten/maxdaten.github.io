@@ -17,6 +17,7 @@ in {
       texlive
       pkgs.pandoc
       pkgs.watchexec
+      pkgs.sass
     ];
   };
 }
