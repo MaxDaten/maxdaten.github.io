@@ -28,6 +28,7 @@ jobs:
         path: result
 
   deploy:
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     needs: [build]
 
@@ -39,7 +40,6 @@ jobs:
         path: result
     - run: tree result/
     - name: GitHub Pages
-      if: github.ref == 'refs/heads/master'
       uses: crazy-max/ghaction-github-pages@v1.3.0
       with:
         build_dir: result
