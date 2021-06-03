@@ -3,6 +3,7 @@
         "Briends",
         "Fielmann",
         "Intelli",
+        "Kitalino",
         "abitur",
         "aeson",
         "bigpoint",
@@ -28,6 +29,5 @@
         "xing",
         "xwiki",
         "yesod"
-    ],
-    "nixEnvSelector.nixShellConfig": "${workspaceRoot}/shell.nix"
+    ]
 }
