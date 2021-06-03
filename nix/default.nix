@@ -38,6 +38,7 @@ in with pkgs;
     shellcheck
     cabal-install
     cabal2nix
+    haskellPackages.shake
     ghc
   ];
 
@@ -48,6 +49,7 @@ in with pkgs;
     phases = [];
     buildInputs = [
       site-generator
+      haskellPackages.shake
       texlive
       pandoc
       watchexec
