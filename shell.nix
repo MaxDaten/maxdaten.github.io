@@ -1,1 +1,7 @@
-(import ./default.nix).pages
+{ project ? import ./nix { }
+}:
+
+project.pkgs.mkShell {
+  buildInputs = project.devTools;
+  shellHook = ''${project.shellHook}'';
+}
