@@ -1,39 +1,72 @@
 .PHONY: build update-nixpkgs clean watch
 
-build:
-	make pages
+BUILD_DIR = build
+SRC_DIR = src
 
-pages:
-	mkdir -p build/cv
 
-	pandoc \
-		--output ./build/cv/curriculum-vitae.pdf \
-		--include-in-header ./src/templates/base.tex \
-		./src/cv/curriculum-vitae.md
-	pandoc \
-		--self-contained \
-		--write html5 \
-		--output ./build/cv/curriculum-vitae.html \
-		--css ./src/templates/template.css \
-		--template ./src/templates/template.html \
-		--verbose \
-		./src/cv/curriculum-vitae.md
-	pandoc \
-		--standalone \
-		--write docx \
-		--output ./build/cv/curriculum-vitae.docx \
-		./src/cv/curriculum-vitae.md
+build: pages index domain-metas
 
-	cp -f ./build/cv/curriculum-vitae.html build/index.html
 
+pages: html docx pdf
+
+
+$(BUILD_DIR)/cv:
+	mkdir -p $@
+
+
+index: $(BUILD_DIR)/index.html
+$(BUILD_DIR)/index.html: $(BUILD_DIR)/cv/curriculum-vitae.html
+	$(eval link_src := $(shell realpath --relative-to "$(BUILD_DIR)" "$<"))
+	$(info Linking "$(link_src)" as "$(@F)")
+	ln -sf "$(link_src)" "$@"
+
+domain-metas:
 	cp -r .well-known build
 	cp CNAME build
 
+
+css: $(BUILD_DIR)/template.css
+$(BUILD_DIR)/template.css: $(SRC_DIR)/sass/template.sass
+	sass $< $@
+
+
+docx: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.docx
+$(BUILD_DIR)/cv/curriculum-vitae.docx: $(SRC_DIR)/cv/*.md
+	pandoc \
+		--standalone \
+		--write docx \
+		--output $@ \
+		$(SRC_DIR)/cv/*.md
+
+
+pdf: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.pdf
+$(BUILD_DIR)/cv/curriculum-vitae.pdf: $(SRC_DIR)/cv/*.md $(SRC_DIR)/templates/base.tex
+	pandoc \
+		--include-in-header $(SRC_DIR)/templates/base.tex \
+		$(SRC_DIR)/cv/*.md \
+		--output $@ \
+
+
+html: $(BUILD_DIR)/cv $(BUILD_DIR)/cv/curriculum-vitae.html
+$(BUILD_DIR)/cv/curriculum-vitae.html: build/cv $(SRC_DIR)/cv/*.md $(BUILD_DIR)/template.css $(SRC_DIR)/templates/template.html
+	pandoc \
+		--self-contained \
+		--write html5 \
+		--output $(BUILD_DIR)/cv/curriculum-vitae.html \
+		--css $(BUILD_DIR)/template.css \
+		--template $(SRC_DIR)/templates/template.html \
+		--verbose \
+		$(SRC_DIR)/cv/*.md
+
+
+.PHONY: clean
 clean:
-	rm -rf build
+	rm -rf $(BUILD_DIR)
+
 
 install:
-	echo "done"
+	mv $(BUILD_DIR)/* $(out)/
+
 
 watch:
 	nix-shell --pure --run 'watchexec --ignore build make pages'

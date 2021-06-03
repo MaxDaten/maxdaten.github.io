@@ -1,9 +1,13 @@
-% Curriculum Vitae
-% Jan-Philip Loos
-% 2020-12-14
+## Work Experience
 
-Oktaviostraße 112 E, 22043 Hamburg, Germany\
-+49 160 966 511 88 • <jloos@maxdaten.io>
+- 02/2020 - 09/2020: Full-Stack Development
+  *Oaktree Technologies GmbH* (subsidiary of *Fielmann AG*)
+- 2018 – 02/2020: Full-Stack Development / DevOps, *Fielmann AG*
+- 2012 – now: Full-Stack Development / DevOps, *Briends GmbH*
+- 2009 – 2011: Junior Developer Front-End & Back-End (Java), *Bigpoint GmbH*
+- 2006 – 2009: IT-Administration, *forma nova GmbH*
+- 1999: Internship Programming, *Kiwilogic AG*
+- 1998: Internship 3D Modeling, *Kiwi GmbH*
 
 ## Education
 
@@ -21,17 +25,6 @@ Oktaviostraße 112 E, 22043 Hamburg, Germany\
 
 Computer Graphics, Virtual Reality, Functional Programming, Haskell, Nix & NixOS, GPGPU, Physic Simulation, Category Theory, Game Programming
 
-## Work Experience
-
-- 02/2020 - 09/2020: Full Stack Development
-  *Oaktree Technologies GmbH* (subsidiary of *Fielmann AG*)
-- 2018 – 02/2020: Full Stack Development / DevOps, *Fielmann AG*
-- 2012 – now: Full Stack Development / DevOps, *Briends GmbH*
-- 2009 – 2011: Junior Developer Front-End & Back-End (Java), *Bigpoint GmbH*
-- 2006 – 2009: IT-Administration, *forma nova GmbH*
-- 1999: Internship Programming, *Kiwilogic AG*
-- 1998: Internship 3D Modeling, *Kiwi GmbH*
-
 ## Awards
 
 - 2018: [German Design Award (Winner: Excellent Communications Design -- Apps)](https://www.german-design-award.com/die-gewinner/galerie/detail/14562-papego.html)
@@ -41,7 +34,7 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, Nix & NixOS
 
 ## Projects
 
-### 2018 – 09/2020: Full Stack Developer / DevOps
+### 2018 – 09/2020: Full-Stack Developer / DevOps
 
 #### Oaktree Technologies GmbH
 
@@ -79,13 +72,13 @@ product catalog.
 - Docker
 - AWS
 
-### 2015 – now: Full Stack Developer / DevOps
+### 2015 – now: Full-Stack Developer / DevOps
 
   *Reading printed books mobile*\
   [Papego (german)](http://papego.de)\
   Briends GmbH
 
-  Full stack development of iOS & Android app & backend. Automatization, integration & delivery in
+  Full-Stack development of iOS & Android app & backend. Automatization, integration & delivery in
   Google Cloud.
 
 *Technologies:*
