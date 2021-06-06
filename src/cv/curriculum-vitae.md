@@ -1,14 +1,38 @@
-% Curriculum Vitae
-% Jan-Philip Loos
-% 2020-12-14
 
+---
+title:  Jan-Philip Loos
+author: Jan-Philip Loos
+date: 2021-06-05
+lang: en
+papersize: a4
+documentclass: article
+header-includes: |
+    \newcommand{\bcenter}{\begin{center}}
+    \newcommand{\ecenter}{\end{center}}
+...
+
+\bcenter
+
+::: heading
+
+:::::: profile-picture
+![Jan-Philip Loos Portrait](./src/img/profile-portrait_low.jpg){ width=30% }\
+::::::
+
+:::::: contact-data
 Oktaviostraße 112 E, 22043 Hamburg, Germany\
-+49 160 966 511 88 • <jloos@maxdaten.io>
++49 160 966 511 88 • <jloos@maxdaten.io> • [![Github](./src/img/GitHub-Mark-32px.png){ #github-logo height=1em }MaxDaten](https://github.com/MaxDaten)
+
+---
+
+\ecenter
 
 ## Education
 
-- M.Sc. : Computer Science - *University of Applied Science Wedel*, 2015
-- B.Sc. : Media Computer Science - *University of Applied Science Wedel*, 2010
+- M.Sc. : Computer Science\
+*University of Applied Science Wedel*, 2015
+- B.Sc. : Media Computer Science\
+*University of Applied Science Wedel*, 2010
 - German Abitur: Intensive Courses: Latin & Physics, 2005
 
 ## Research
@@ -17,16 +41,20 @@ Oktaviostraße 112 E, 22043 Hamburg, Germany\
 - 2013: *Functional Reactive Programming in Netwire*
 - 2010: B.Sc.-Thesis: *Development of a Server-Side Rigid-Body Simulation*
 
+::::::
+:::
+
 ## Research Interests
 
 Computer Graphics, Virtual Reality, Functional Programming, Haskell, Nix & NixOS, GPGPU, Physic Simulation, Category Theory, Game Programming
 
 ## Work Experience
 
-- 02/2020 - 09/2020: Full Stack Development
+- 2012 – now: Full Stack Development & DevOps, Co-Founder of *Briends GmbH*
+- 02/2021 - 06/2021: Consultant & Full Stack Development, *Kitalino GmbH*
+- 02/2020 - 09/2020: Full Stack Development\
   *Oaktree Technologies GmbH* (subsidiary of *Fielmann AG*)
-- 2018 – 02/2020: Full Stack Development / DevOps, *Fielmann AG*
-- 2012 – now: Full Stack Development / DevOps, *Briends GmbH*
+- 2018 – 02/2020: Full Stack Development & DevOps, *Fielmann AG*
 - 2009 – 2011: Junior Developer Front-End & Back-End (Java), *Bigpoint GmbH*
 - 2006 – 2009: IT-Administration, *forma nova GmbH*
 - 1999: Internship Programming, *Kiwilogic AG*
@@ -40,6 +68,23 @@ Computer Graphics, Virtual Reality, Functional Programming, Haskell, Nix & NixOS
 - 2016: [Best of „Neuland 2.0“ at Leipziger Buchmesse](http://www.leipziger-buchmesse.de/pressemitteilungen/neuland-20-zeigt-14-ausgewaehlte-startupinnovationen/393971)
 
 ## Projects
+
+### 02/2021 – 06/2021: Kitalino GmbH
+
+The Kitalino GmbH is a subsidiary of the Herder Verlag that offers digital solutions for daycare centers and their supporting organizations.
+As a core feature Kitalino offers digital development documentation of children.
+
+Consulted regarding architecture reviews, context analysis, code reviews, project management, automatization and API development.
+
+*Technologies:*
+
+- Distributed Architectures
+- Keycloak
+- Agile Project Management in Scrum Framework
+- Docker & Docker Compose
+- MySQL
+- Nginx
+- PHP 7 & Symfony 4
 
 ### 2018 – 09/2020: Full Stack Developer / DevOps
 
@@ -78,8 +123,9 @@ product catalog.
 - Kubernetes
 - Docker
 - AWS
+- Kafka
 
-### 2015 – now: Full Stack Developer / DevOps
+### 2015 – now: Briends GmbH - Full Stack Developer / DevOps
 
   *Reading printed books mobile*\
   [Papego (german)](http://papego.de)\
@@ -90,6 +136,7 @@ product catalog.
 
 *Technologies:*
 
+- Kotlin
 - Haskell
   - Persistent
   - Servant / WAI / Warp

@@ -8,7 +8,9 @@ pages:
 
 	pandoc \
 		--output ./build/cv/curriculum-vitae.pdf \
+		--standalone \
 		--include-in-header ./src/templates/base.tex \
+		--template ./src/templates/template.latex \
 		./src/cv/curriculum-vitae.md
 	pandoc \
 		--self-contained \
