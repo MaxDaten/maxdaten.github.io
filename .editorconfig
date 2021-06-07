@@ -1,24 +1,25 @@
+# EditorConfig configuration
+# https://EditorConfig.org
+
+# Top-most EditorConfig file
 root = true
 
 [*]
-indent_style = space
-indent_size = 4
 end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
 insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
 
-[*.md]
+# Ignore diffs/patches
+[*.{diff,patch}]
+end_of_line = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
+
+[*.{json,yml,yaml,lock,md,nix,sh,xml}]
+indent_style = space
 indent_size = 2
 
 [Makefile]
 indent_style = tab
 indent_size = 4
-
-[*.nix]
-indent_size = 2
-indent_style = space
-
-[.github/**/*.yml]
-indent_size = 2
-indent_style = space
