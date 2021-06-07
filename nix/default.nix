@@ -34,6 +34,7 @@ in with pkgs;
   shellHook = ./setup-shell.sh;
 
   devTools = [
+    site-generator
     stack
     shellcheck
     cabal-install
@@ -43,10 +44,17 @@ in with pkgs;
   ];
 
   pages = stdenv.mkDerivation {
-    src = gitignoreSource ./..;
+    src = gitignoreSource ./../src;
 
     name = "cv.maxdaten.io";
-    phases = [];
+
+    phases = [
+      "unpackPhase"
+      "buildPhase"
+      "installPhase"
+      "distPhase"
+    ];
+
     buildInputs = [
       site-generator
       haskellPackages.shake
@@ -56,5 +64,16 @@ in with pkgs;
       sass
       dhall
     ];
+
+    buildPhase = ''
+      site-generator --help
+      site-generator --verbose build
+    '';
+
+    installPhase = ''
+      set -x
+      mkdir -p $out
+      cp -r _site/* $out
+    '';
   };
 }
