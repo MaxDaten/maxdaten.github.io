@@ -2,3 +2,5 @@ build
 result*
 .DS_Store
 .sass-cache
+_site
+_cache
