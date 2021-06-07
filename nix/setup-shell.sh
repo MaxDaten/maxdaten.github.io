@@ -13,3 +13,4 @@ ${text1}|m${text1}|a${text2}|x${text2}|d${text3}|a${text3}|t${text4}|e${text4}|n
 ${text1}+-${text1}+-${text2}+-${text2}+-${text3}+-${text3}+-${text4}+-${text4}+-${text5}+-${text5}+-${text6}+-${text6}+
 ${textHighlight}Shell Environment
 EOF
+site-generator --help
